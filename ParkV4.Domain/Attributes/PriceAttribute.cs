@@ -1,5 +1,5 @@
 [AttributeUsage(AttributeTargets.Field, Inherited = false, AllowMultiple = false)]
-sealed class PriceAttribute : Attribute
+public class PriceAttribute : Attribute
 {
     public double OneHour { get; }
     public double TwoHour { get; }

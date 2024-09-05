@@ -1,0 +1,8 @@
+ParkV4.Persistence/obj/
+ParkV4.Application/obj/
+ParkV4.WebUI/obj/
+ParkV4.Domain/obj/
+ParkV4.Application/obj/
+ParkV4.Application/obj/Debug/net8.0/ParkV4.Application.assets.cache
+ParkV4.WebUI/obj/
+ParkV4.WebUI/obj/project.assets.json

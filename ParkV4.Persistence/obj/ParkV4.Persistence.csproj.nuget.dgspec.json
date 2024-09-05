@@ -1,26 +1,151 @@
 {
   "format": 1,
   "restore": {
-    "/Users/haruncanatali/Desktop/Projects/ParkV4/ParkV4.Persistence/ParkV4.Persistence.csproj": {}
+    "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Persistence\\ParkV4.Persistence.csproj": {}
   },
   "projects": {
-    "/Users/haruncanatali/Desktop/Projects/ParkV4/ParkV4.Persistence/ParkV4.Persistence.csproj": {
+    "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Application\\ParkV4.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haruncanatali/Desktop/Projects/ParkV4/ParkV4.Persistence/ParkV4.Persistence.csproj",
-        "projectName": "ParkV4.Persistence",
-        "projectPath": "/Users/haruncanatali/Desktop/Projects/ParkV4/ParkV4.Persistence/ParkV4.Persistence.csproj",
-        "packagesPath": "/Users/haruncanatali/.nuget/packages/",
-        "outputPath": "/Users/haruncanatali/Desktop/Projects/ParkV4/ParkV4.Persistence/obj/",
+        "projectUniqueName": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Application\\ParkV4.Application.csproj",
+        "projectName": "ParkV4.Application",
+        "projectPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Application\\ParkV4.Application.csproj",
+        "packagesPath": "C:\\Users\\Haruncan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/haruncanatali/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Haruncan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\ParkV4.Domain.csproj": {
+                "projectPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\ParkV4.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\ParkV4.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\ParkV4.Domain.csproj",
+        "projectName": "ParkV4.Domain",
+        "projectPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\ParkV4.Domain.csproj",
+        "packagesPath": "C:\\Users\\Haruncan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Haruncan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,10 +168,95 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Persistence\\ParkV4.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Persistence\\ParkV4.Persistence.csproj",
+        "projectName": "ParkV4.Persistence",
+        "projectPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Persistence\\ParkV4.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Haruncan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Haruncan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Application\\ParkV4.Application.csproj": {
+                "projectPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Application\\ParkV4.Application.csproj"
+              },
+              "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\ParkV4.Domain.csproj": {
+                "projectPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\ParkV4.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -65,7 +275,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

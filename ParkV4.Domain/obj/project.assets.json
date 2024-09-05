@@ -8,25 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/haruncanatali/.nuget/packages/": {}
+    "C:\\Users\\Haruncan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/haruncanatali/Desktop/Projects/ParkV4/ParkV4.Domain/ParkV4.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\ParkV4.Domain.csproj",
       "projectName": "ParkV4.Domain",
-      "projectPath": "/Users/haruncanatali/Desktop/Projects/ParkV4/ParkV4.Domain/ParkV4.Domain.csproj",
-      "packagesPath": "/Users/haruncanatali/.nuget/packages/",
-      "outputPath": "/Users/haruncanatali/Desktop/Projects/ParkV4/ParkV4.Domain/obj/",
+      "projectPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\ParkV4.Domain.csproj",
+      "packagesPath": "C:\\Users\\Haruncan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Haruncan\\Desktop\\ParkV4\\ParkV4\\ParkV4.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/haruncanatali/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Haruncan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

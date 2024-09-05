@@ -18,6 +18,8 @@ public class Entry : BaseEntity
 
     public EntryStatus EntryStatus { get; set; }
 
+    public string Description { get; set; }
+
     public Vehicle Vehicle { get; set; }
     public Customer Customer { get; set; }
     public Location Location { get; set; }

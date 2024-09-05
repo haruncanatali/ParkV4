@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParkV4.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77d72265bc2cd678a055708e7959e37df2884572")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParkV4.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParkV4.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
