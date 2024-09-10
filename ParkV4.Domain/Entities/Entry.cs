@@ -5,6 +5,7 @@ public class Entry : BaseEntity
     public long VehicleId { get; set; }
     public long CustomerId { get; set; }
     public long LocationId { get; set; }
+    public long UserId { get; set; }
 
     public double FirstPrice { get; set; }
     public double LastPrice { get; set; }
@@ -23,6 +24,7 @@ public class Entry : BaseEntity
     public Vehicle Vehicle { get; set; }
     public Customer Customer { get; set; }
     public Location Location { get; set; }
+    public User User { get; set; }
 
     public Entry()
     {

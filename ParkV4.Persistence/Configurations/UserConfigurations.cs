@@ -19,6 +19,7 @@ namespace ParkV4.Persistence.Configurations
             builder.Property(c=>c.Email).HasMaxLength(150).IsRequired();
             builder.Property(c=>c.TelephoneNumber).HasMaxLength(20).IsRequired();
             builder.Property(c=>c.CompanyId).IsRequired();
+            builder.Property(c => c.UserStatus).IsRequired();
         }
     }
 }

@@ -16,6 +16,7 @@ namespace ParkV4.Persistence.Configurations
             builder.Property(c=>c.VehicleId).IsRequired();
             builder.Property(c=>c.CustomerId).IsRequired();
             builder.Property(c=>c.LocationId).IsRequired();
+            builder.Property(c => c.UserId).IsRequired();
             builder.Property(c=>c.FirstPrice).IsRequired();
             builder.Property(c=>c.LastPrice).IsRequired();
             builder.Property(c=>c.PriceDiffrence).IsRequired();

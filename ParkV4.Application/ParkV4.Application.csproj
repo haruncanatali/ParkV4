@@ -28,8 +28,4 @@
       <ProjectReference Include="..\ParkV4.Domain\ParkV4.Domain.csproj" />
     </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Users\" />
-  </ItemGroup>
-
 </Project>

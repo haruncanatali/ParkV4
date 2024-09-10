@@ -1,4 +1,5 @@
 using System.Runtime.Serialization;
+using ParkV4.Domain.Enums;
 
 public class User : BaseEntity
 {
@@ -10,6 +11,8 @@ public class User : BaseEntity
     public string Email { get; set; }
     public string TelephoneNumber { get; set; }
 
+    public UserStatus UserStatus { get; set; }
+
     public string Token { get; set; }
     public string RefreshToken { get; set; }
     public DateTime RefreshTokenExpireTime { get; set; }
@@ -19,6 +22,7 @@ public class User : BaseEntity
     public long CompanyId { get; set; }
 
     public Company Company { get; set; }
+    public List<Entry> Entries { get; set; }
 
     [IgnoreDataMember]
     public string FullName
