@@ -39,6 +39,8 @@ namespace ParkV4.Application.Common.Managers
                     return ImagePath.UserProfilePhoto + "/default_user.jpeg";
                 case ImagePath.CompanyPhoto:
                     return ImagePath.CompanyPhoto + "/default_company.jpeg";
+                case ImagePath.VehiclePhoto:
+                    return ImagePath.CompanyPhoto + "/default_vehicle.jpeg";
             }
         }
 

@@ -16,6 +16,8 @@ namespace ParkV4.Persistence.Configurations
             builder.Property(c=>c.Color).HasMaxLength(75).IsRequired();
             builder.Property(c=>c.BrandId).IsRequired();
             builder.Property(c=>c.ModelId).IsRequired();
+            builder.Property(c => c.FuelType).IsRequired();
+            builder.Property(c => c.Photo).HasMaxLength(250).IsRequired();
         }
     }
 }
