@@ -15,6 +15,7 @@ namespace ParkV4.Persistence.Configurations
             builder.Property(c=>c.Name).HasMaxLength(50).IsRequired();
             builder.Property(c=>c.Surname).HasMaxLength(50).IsRequired();
             builder.Property(c=>c.TelephoneNumber).HasMaxLength(20).IsRequired();
+            builder.Property(c => c.Photo).HasMaxLength(250).IsRequired();
         }
     }
 }

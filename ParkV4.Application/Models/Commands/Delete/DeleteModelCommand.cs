@@ -38,6 +38,11 @@ public class DeleteModelCommand : IRequest<BaseResponseModel<Unit>>
                 .Where(c => vehicleIds.Contains(c.VehicleId))
                 .ToListAsync(cancellationToken);
             
+            if (entries.Count > 0)
+            {
+                throw new Exception("Bu markaya ait giriş/çıkış verileri bulunmaktadır. İlgili veriler silinmeden marka silinemez.");
+            }
+            
             _context.Entries.RemoveRange(entries);
             await _context.SaveChangesAsync(cancellationToken);
             
