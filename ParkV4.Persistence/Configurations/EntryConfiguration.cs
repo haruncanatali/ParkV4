@@ -19,11 +19,11 @@ namespace ParkV4.Persistence.Configurations
             builder.Property(c => c.UserId).IsRequired();
             builder.Property(c=>c.FirstPrice).IsRequired();
             builder.Property(c=>c.LastPrice).IsRequired();
-            builder.Property(c=>c.PriceDiffrence).IsRequired();
+            //builder.Property(c=>c.PriceDiffrence).IsRequired();
             builder.Property(c=>c.FirstDuration).IsRequired();
-            builder.Property(c=>c.LastDuration).IsRequired();
+            //builder.Property(c=>c.LastDuration).IsRequired();
             builder.Property(c=>c.FirstDate).IsRequired();
-            builder.Property(c=>c.LastDate).IsRequired();
+            //builder.Property(c=>c.LastDate).IsRequired();
             builder.Property(c=>c.EntryStatus).IsRequired();
         }
     }
